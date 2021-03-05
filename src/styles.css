@@ -1,0 +1,30 @@
+
+
+:root{
+    --box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.4);
+    --background-color: radial-gradient(10.1% 95.3%, rgb(242, 188, 141) 0%, rgb(242, 159, 141) 100.2%);
+    --links-color: #cc561e;
+
+}
+
+
+body {
+    font-family: fantasy;
+    text-align: center;
+    background: var(--background-color);
+}
+
+a {
+    padding: 0 10px;
+    color: var(--links-color);
+    font-weight: bold;
+}
+
+img {
+    width: 700px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    margin-bottom: 20px;
+}
